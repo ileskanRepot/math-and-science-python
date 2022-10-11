@@ -8,7 +8,7 @@ x_1 = 100
 ka = (x_0 + x_1)/2
 
 if (f(x_0) * f(x_1)) > 0:
-    print("Valitse alkuarvot paremmin")
+    print("Pick better starting values")
     exit
 
 while ka - x_0 > diff:

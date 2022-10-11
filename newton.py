@@ -11,7 +11,7 @@ def Df(x):
     return (f(x+diff) - f(x))/diff
 
 if abs(Df(x_0)) < 0.001:
-    print("Valitse parempi alkuarvo")
+    print("Pick better starting value")
     exit
 
 while abs(x_0 - x_latest) > diff:
